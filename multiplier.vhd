@@ -21,7 +21,7 @@ end multiplier;
 
 architecture myarch of multiplier is
 
-signal complement1 :std_logic_Vector(4 downto 0);	--complement of number1 and 2
+signal complement1 :std_logic_Vector(4 downto 0);	--complement of number1 
 type state is(initilize,state1,state2,state3,state4,state5);
 signal present_state,next_state :state; 
  
