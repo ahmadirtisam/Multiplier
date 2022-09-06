@@ -53,7 +53,7 @@ output=>complement1
 
 	end process;
 
-	comb_process:process(clock,present_state,number1,number2)
+	process(clock,present_state,number1,number2)
 	
 		variable cp_bit :std_logic_vector(1 downto 0);--current and previous bit
 		variable product_register:std_logic_Vector(9 downto 0);--Product Register	
